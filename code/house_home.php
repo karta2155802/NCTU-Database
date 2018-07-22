@@ -81,7 +81,6 @@ include("connect.php");
                 echo "</script>";
             }
         }
-
 ?>
         <div class="big_title">
         <h1>Home&nbsp;Page&nbsp;</h1>
