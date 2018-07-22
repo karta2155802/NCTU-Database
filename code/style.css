@@ -1,0 +1,236 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video,.center ,.cneter p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+    ol, ul {
+      list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table,th,td{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*----------------------------------------------*/
+
+*
+{
+    font-family: "cwtexfangsong";
+}
+
+body
+{
+    background: #EBECED;
+    background-attachment: fixed;
+}
+
+a
+{
+    font-size: 16px;
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: red;
+}
+
+div
+{
+    text-align: center;
+}
+
+.typeforindex{
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+.typeforindex p{
+    font-size: 16px;
+    display:inline;
+}
+
+.typeforregister{
+    margin: auto;
+    text-align: center;
+    width: 1400px;
+}
+
+.typeforregister p{
+    font-size: 16px;
+    display:inline;
+}
+
+.input
+{
+    font-size: 25px;
+    border-radius: 5px;
+    border: 2px solid #DBD6FF;
+    margin: 5px 10px;
+    padding: 5px 16px;
+}
+
+.big_title
+{
+    background: linear-gradient(to right, #91DEDB, #EDB9B2);
+    background-attachment: fixed;
+    min-width: 960px;
+    margin-bottom: 20px;
+    border: 0;
+    border-style: groove;
+    padding: 5px 30px;
+    text-align: center;
+}
+
+h1
+{
+    font-size: 50px;
+    padding: 30px 25px;
+    color: #555555;
+}
+
+.submit
+{
+    cursor: pointer;
+}
+
+.submit:hover
+{
+    opacity: 0.8;
+}
+
+.admin_table
+{
+    margin: 20px auto;
+    width: 1024px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.normal_table
+{
+    margin: 30px auto;
+    width: 600px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.add_user, .logout
+{
+    font-size: 25px;
+    border-radius: 5px;
+    border: 2px solid #DBD6FF;
+    margin: 5px 10px;
+    padding: 5px 16px;
+}
+
+th a
+{
+    font-size: 24px;
+}
+
+.home_table
+{
+    margin: 30px auto;
+    width: 1150px;
+    font-size: 24px;
+    text-align: center;
+}
+
+td
+{
+    border: 1px solid #000000;
+    vertical-align: middle;
+}
+
+th
+{
+    border: 1px solid #000000;
+    vertical-align: middle;
+}
+
+.home_input
+{
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid #DBD6FF;
+    margin: 5px 10px;
+    padding: 5px 16px;
+    vertical-align: middle;
+}
+
+option
+{
+    vertical-align: middle;
+}
+
+#id
+{
+    width: 55px;
+}
+
+#name
+{
+    width: 180px;
+}
+
+#location
+{
+    width: 150px;
+}
+
+#time
+{
+    width: 160px;
+}
+
+#owner
+{
+    width: 100px;
+}
+
+#xxx
+{
+    width: 650px;
+}
+
+.input_checkbox
+{
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+}
+
+
+
