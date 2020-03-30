@@ -41,6 +41,8 @@ if($account!=null&&$pwd!=null&&!preg_match("/ /",$account)&&!preg_match("/ /",$p
             }
 }
 else{
+    session_unset();
+    session_destroy(); 
     echo "<script type='text/javascript'>";
     echo "alert('Wrong account or password');";
     echo "window.location.href='index.php'";

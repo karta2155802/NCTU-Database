@@ -71,7 +71,7 @@ include("connect.php");
             if($checkin<$getdate||$checkout<$getdate){
                 echo "<script type='text/javascript'>";
                 echo "alert('Check-in date and Check-out date should be later than today');";
-                echo "window.location.href='house_home'";
+                echo "window.location.href='house_home.php'";
                 echo "</script>";
             }
             if($checkin>=$checkout){

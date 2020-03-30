@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="style.css" media="screen" />
         <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <title>瑀的資料庫作業</title>
+        <title>資料庫作業</title>
     </head>
     <body>
         <div class="big_title">

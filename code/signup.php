@@ -19,7 +19,7 @@ if($account!=null&&$pwd!=null&&$pwd2!=null&&$name!=null&&$email!=null){
                 $flag=$result->fetch(PDO::FETCH_OBJ);
                 if($flag){
                     echo "<script type='text/javascript'>";
-                    echo "alert('Account has bee used');";
+                    echo "alert('Account has been used');";
                     echo "window.location.href='register.php'";
                     echo "</script>";
                  }
