@@ -1,2 +1,2 @@
-# Database Fianl Project
+# Database Final Project
 A database system for reservation
