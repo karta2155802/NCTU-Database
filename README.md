@@ -1,2 +1,2 @@
 # Database Fianl Project
-A system for reservation
+A database system for reservation
